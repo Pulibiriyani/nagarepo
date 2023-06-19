@@ -61,3 +61,19 @@ touch file2323.txt
 vi file2323.txt
 git checkout koti
 vi file2323.txt
+git branch
+ls
+touch file99.txt file88.txt
+git add .
+git commit -m "ubuntu"
+git push origin nagpuli
+git checkout nagpuli
+git branch
+git checkout master
+git branch
+touch file114.txt
+git add .
+git commit -m "ms"
+git push origin master
+git pull --rebase origin master
+git push origin master
